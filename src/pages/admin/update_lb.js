@@ -124,13 +124,12 @@ function UpdateLB(){
         remove(ref(database,lbdb+currentState+'/'+selected));
         remove(ref(database,publicdb+currentState+"/"+selected));
         var i=0;
-        onValue(ref(database,lbdb+currentState),(snapshot)=>{
+        onValue(ref(database,admindb+currentState),(snapshot)=>{
             const data = snapshot.val();
-            for(var item in data)
-                i++;
+            i = data.nlp;
         })
         update(ref(database,admindb+currentState),{
-            nlp: i,
+            nlp: parseInt(i) - 1,
         })
         alert("Successfully deleted the local body details");
         window.location.reload();

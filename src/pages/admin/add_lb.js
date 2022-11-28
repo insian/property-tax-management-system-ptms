@@ -43,20 +43,30 @@ function AddLb(){
         }
         if((codeRef.current.value.length === 3) && (codeRef.current.value.match(/^[A-Z]+$/))){
             var data;
-            onValue(ref(database,lbdb+currentState),(snapshot)=>{
-                data = Object.keys(snapshot.val());
-            })
-            const value = codeRef.current.value;
-            var check = 0;
-            for(var item in data){
-                if(data[item] === value)
-                    check = 1;
+            try{
+                onValue(ref(database,lbdb+currentState),(snapshot)=>{
+                    try{
+                        data = Object.keys(snapshot.val());
+                    }
+                    catch(e){
+                        console.log("");
+                    }
+                })
+                const value = codeRef.current.value;
+                var check = 0;
+                for(var item in data){
+                    if(data[item] === value)
+                        check = 1;
+                }
+                
+                if(check){
+                    document.getElementById("lerr3").innerText = "Lb Code already taken";
+                    document.getElementById("err3").style.display = "block";
+                    errCount[2]=1;
+                }
             }
-            
-            if(check){
-                document.getElementById("lerr3").innerText = "Lb Code already taken";
-                document.getElementById("err3").style.display = "block";
-                errCount[2]=1;
+            catch(e){
+                console.log("");
             }
         }
         else{
@@ -119,13 +129,12 @@ function AddLb(){
         })
   
         var i=0;
-        onValue(ref(database,lbdb+currentState),(snapshot)=>{
+        onValue(ref(database,admindb+currentState),(snapshot)=>{
             const data = snapshot.val();
-            for(var item in data)
-                i++;
+            i = data.nlp;
         })
         update(ref(database,admindb+currentState),{
-            nlp: i,
+            nlp: parseInt(i)+1,
         })
 
         alert("Successfully added the local body details");
