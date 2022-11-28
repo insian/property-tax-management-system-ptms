@@ -1,0 +1,86 @@
+#login-main{
+    min-height: 68vh;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.login-first{
+    margin: 0 auto;
+}
+
+.login-para{
+    font-size: 2rem;
+}
+
+.login-btn{
+    width: 15%;
+    padding: 50px;
+    margin: 50px;
+    background-color: rgb(213, 208, 208);
+    border-radius: 20px;
+    transition: ease-in-out 0.3s;
+}
+
+.login-btn:hover{
+    scale: 1.05;
+}
+
+.login-icons{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.popup-form{
+    font-size: 1.5rem;
+}
+
+.form-heading{
+    font-size: 2rem;
+}
+
+.form-labels{
+    display: block;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 20px; 
+}
+
+.form-select{
+    text-align: left;
+    font-size: 1.2rem;
+    margin: 0 20px;
+}
+
+.form-inputs{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    text-align: left;
+    width: calc(30vw - 60px);
+    padding: 7px;
+    margin: 0 20px;
+    border: 0.5px solid rgba(0,0,0,0.2);
+    border-radius: 3px;
+}
+
+.admin-inputs:hover{
+    border-color: rgba(0,0,0,0.3);
+}
+
+.form-submit{
+    margin-top:20px;
+    border: 0;
+    border-radius: 5px;
+    background-color: rgb(55, 146, 226); 
+    color:white;
+    width: 30%;
+    font-size: 1.5rem;
+    padding: 5px;
+}
+
+.form-submit:hover{
+    background-color: rgb(34, 93, 145); 
+}
+
+.form-submit:active{
+    background-color: rgb(88, 144, 193);
+}

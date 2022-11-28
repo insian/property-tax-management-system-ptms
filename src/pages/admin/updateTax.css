@@ -1,0 +1,42 @@
+.upTax-heading{
+    padding: 20px;
+    font-size: 2rem;
+}
+
+.upTax-first-div{
+    width: 45%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.upTax-label{
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+    font-size: 1.4rem;
+    margin: 0 20px;
+}
+
+.upTax-num-input{
+    padding: 5px;
+    width: 40%;
+    text-align: right;
+    margin: 5px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: 0.5px solid;
+}
+
+.upTax-num-input:focus{
+    background-color: rgb(236, 236, 236);
+}
+
+.upTax-num-input:disabled{
+    background-color: rgba(128, 128, 128, 0.4);
+}
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}

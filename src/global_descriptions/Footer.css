@@ -1,0 +1,45 @@
+.Footer {
+  display: block;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #E0FFFF;
+  text-align: center;
+  color: black;
+  padding: 20px;
+}
+
+.first-para{
+  font-size: 1.1rem;
+  min-height: 1.5em;
+}
+
+.second-para{
+  padding-top: 20px;
+  font-size: 0.8rem;
+}
+
+.links{
+  font-style: italic;
+  padding: 0 20px;
+  color: black;
+  transition: ease-in-out 0.2s;
+}
+
+.links:hover{
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.footer-buttons{
+  font-style:italic;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.1rem;
+  margin: 0 20px;
+  border: 0;
+  background-color: rgba(0,0,0,0);
+  transition: ease-in-out 0.2s;
+}
+
+.footer-buttons:hover{
+  font-size: 1.2rem;
+  font-weight: bold;
+}

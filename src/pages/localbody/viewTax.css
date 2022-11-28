@@ -1,0 +1,36 @@
+.vTaxLb-heading{
+    padding: 20px;
+    font-size: 2rem;
+}
+
+.vTaxLb-first-div{
+    width: 45%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.vTaxLb-label{
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+    font-size: 1.4rem;
+    margin: 0 20px;
+}
+
+.vTaxLb-input{
+    padding: 5px;
+    width: 40%;
+    text-align: right;
+    margin: 5px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: 0.5px solid;
+}
+
+.vTaxLb-input:focus{
+    background-color: rgb(236, 236, 236);
+}
+
+.vTaxLb-input:disabled{
+    background-color: rgba(128, 128, 128, 0.4);
+}

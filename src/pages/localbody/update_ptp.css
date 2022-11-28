@@ -1,0 +1,156 @@
+.updptp-heading{
+    padding: 20px;
+    font-size: 2rem;
+}
+
+.updptp-select-main{
+    width:25%;
+    font-size:1.5rem;
+    margin:0 auto 20px;
+}
+
+.updptp-first-div{
+    display: none;
+    width: 50%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.updptp-select{
+    display: inline-block;
+    width: calc(53% - 10px);
+    text-align: left;
+    margin: 5px;
+    font-size: 1.2rem;
+}
+
+.updptp-label{
+    display: inline-block;
+    width: 35%;
+    text-align: left;
+    font-size: 1.4rem;
+    margin: 0 20px;
+}
+
+.updptp-input{
+    padding: 5px;
+    width: 50%;
+    text-align: left;
+    margin: 5px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: 0.5px solid;
+}
+
+.updptp-num-input{
+    padding: 5px;
+    width: 50%;
+    text-align: right;
+    margin: 5px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: 0.5px solid;
+}
+
+.updptp-input:focus{
+    background-color: rgb(236, 236, 236);
+}
+
+.updptp-input:disabled{
+    background-color: rgba(128, 128, 128, 0.4);
+}
+
+.updptp-num-input:focus{
+    background-color: rgb(236, 236, 236);
+}
+
+.updptp-num-input:disabled{
+    background-color: rgba(128, 128, 128, 0.4);
+}
+
+
+.errs{
+    display: none;
+}
+
+.updptp-error{
+    display: inline-block;
+    width:50%;
+    color:red;
+    padding: 5px;
+    margin: 0 5px;
+    font-size: 1rem;
+}
+
+.lb-buttons{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:600;
+    font-size: 1.2em;
+    padding: 5px 10px;
+    min-width:15%;
+    margin: 30px 20px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.update{
+    background-color: rgb(55, 146, 226); 
+}
+
+.update:hover,
+.update:focus{
+    background-color: rgb(119, 192, 255); 
+}
+
+.save{
+    display: none;
+    background-color: rgb(23, 197, 0);
+}
+
+.save:hover,
+.save:focus{
+    background-color: rgb(80, 252, 0);
+}
+
+.delete{
+    color:white;
+    background-color: rgb(255, 58, 58);
+}
+
+.delete:hover,
+.delete:focus{
+    background-color: rgb(255, 0, 0); 
+}
+
+.del-ques{
+    font-size: 1.4rem;
+    text-align:justify;
+    padding: 10px;
+}
+
+.del-note{
+    font-size: 1rem;
+    color:red;
+    margin-bottom: 10px;
+}
+
+.del-buttons{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:600;
+    font-size: 1.2rem;
+    padding: 5px 10px;
+    min-width:30%;
+    margin: 10px 20px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.cancel{
+    color:white;
+    background-color: rgb(168, 168, 168);
+}
+
+.cancel:hover,
+.cancel:focus{
+    background-color: rgb(129, 129, 129);
+}

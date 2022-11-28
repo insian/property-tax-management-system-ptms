@@ -1,0 +1,71 @@
+.addlb-heading{
+    padding: 20px;
+    font-size: 2rem;
+}
+
+.addlb-first-div{
+    width: 50%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.addlb-label{
+    display: inline-block;
+    width: 25%;
+    text-align: left;
+    font-size: 1.4rem;
+    margin: 0 20px;
+}
+
+.addlb-input{
+    padding: 5px;
+    width: 65%;
+    text-align: left;
+    margin: 5px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: 0.5px solid;
+}
+
+.addlb-input:focus{
+    background-color: rgb(236, 236, 236);
+}
+
+.errs{
+    display: none;
+}
+
+.addlb-error{
+    display: inline-block;
+    width:65%;
+    color:red;
+    padding: 5px;
+    margin: 0 5px;
+    font-size: 1rem;
+}
+
+.admin-buttons{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:600;
+    font-size: 1.2rem;
+    padding: 5px 10px;
+    min-width:15%;
+    margin: 30px 20px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.add{
+    background-color: rgb(55, 146, 226); 
+}
+
+.add:hover,
+.add:focus{
+    background-color: rgb(119, 192, 255); 
+}
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}

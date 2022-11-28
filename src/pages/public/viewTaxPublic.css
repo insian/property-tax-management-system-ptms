@@ -1,0 +1,56 @@
+.vTaxPub-heading{
+    padding: 20px;
+    font-size: 2rem;
+}
+
+.vTaxPub-first-div{
+    width: 45%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.vTaxPub-label{
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+    font-size: 1.4rem;
+    margin: 0 20px;
+}
+
+.vTaxPub-input{
+    padding: 5px;
+    width: 40%;
+    text-align: right;
+    margin: 5px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: 0.5px solid;
+}
+
+.public-buttons{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:600;
+    font-size: 1.2rem;
+    padding: 5px 10px;
+    min-width:15%;
+    margin: 30px 20px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.vTaxPub-input:focus{
+    background-color: rgb(236, 236, 236);
+}
+
+.vTaxPub-input:disabled{
+    background-color: rgba(128, 128, 128, 0.4);
+}
+
+.update{
+    background-color: rgb(55, 146, 226); 
+}
+
+.update:hover,
+.update:focus{
+    background-color: rgb(119, 192, 255); 
+}

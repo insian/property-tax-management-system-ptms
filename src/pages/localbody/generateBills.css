@@ -1,0 +1,153 @@
+.gb-heading{
+    padding: 20px;
+    font-size: 2rem;
+}
+
+.gb-first-div{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.gb-label{
+    display: inline-block;
+    width: 20%;
+    text-align: left;
+    font-size: 1.4rem;
+    margin: 0 20px;
+}
+
+.gb-input{
+    padding: 5px;
+    width: 30%;
+    text-align: left;
+    margin: 5px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: 0.5px solid;
+}
+
+.gb-input:focus{
+    background-color: rgb(236, 236, 236);
+}
+
+.gb-input:disabled{
+    background-color: rgba(128, 128, 128, 0.4);
+}
+
+.gb-buttons{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:600;
+    font-size: 1.2em;
+    padding: 5px 10px;
+    min-width:15%;
+    margin: 0 30px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.gb-second-div{
+    margin: 30px auto;
+}
+
+.gb-table{
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.thead-th,
+.tbody-td{
+    border: 2px solid black;
+}
+
+.tbody-tr:hover{
+    background-color: rgb(220, 220, 220);
+}
+
+.thead-ptp{
+    width:10%;
+    height : 40px;
+    padding: 5px;
+}
+
+.thead-name{
+    width: 15%;
+    padding: 5px;
+}
+
+.thead-ly{
+    width: 10%;
+    padding: 5px;
+}
+
+.thead-propdet{
+    width: 30%;
+    padding: 5px;
+}
+
+.thead-tax{
+    width: 10%;
+    padding: 5px;
+}
+
+.thead-status{
+    width: 10%;
+}
+
+.thead-bill{
+    width: 15%;
+    padding: 5px;
+}
+
+.tbody-propdet{
+    width:90%;
+    margin: 5px auto;
+    text-align: left;
+}
+
+.tbody-propdet-plabel{
+    display: inline-block;
+    width: 25%;
+}
+
+.tbody-propdet-pvalue{
+    display: inline-block;
+    text-align: left;
+    padding-left: 4px;
+    width: calc(75% - 10px);
+}
+
+.tbody-row{
+    display: flex;
+    flex-direction: row;
+    padding: 1px;
+}
+
+.tbody-buttons{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(55, 146, 226);
+    font-family:'Courier New', Courier, monospace;
+    width: 50%;
+    font-weight: 600;
+}
+
+.tbody-buttons:hover,
+.tbody-buttons:focus{
+    background-color: rgb(119, 192, 255); 
+}
+
+.no-records-div{
+    display: none;
+    margin: 0 auto;
+    width: 40%;
+}
+.no-record-found{
+    /*background-color: black;*/
+    color: red;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 10px;
+}

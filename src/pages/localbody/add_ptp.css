@@ -1,0 +1,110 @@
+.addptp-heading{
+    padding: 20px;
+    font-size: 2rem;
+}
+
+.addptp-first-div{
+    width: 50%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.addptp-label{
+    display: inline-block;
+    width: 35%;
+    text-align: left;
+    font-size: 1.4rem;
+    margin: 0 20px;
+}
+
+.addptp-input{
+    padding: 5px;
+    width: 50%;
+    text-align: left;
+    margin: 5px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: 0.5px solid ;
+}
+
+.addptp-input:focus{
+    background-color: rgb(236, 236, 236);
+}
+
+.addptp-num-input{
+    padding: 5px;
+    width: 50%;
+    text-align: right;
+    margin: 5px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: 0.5px solid ;
+}
+
+.addptp-num-input:focus{
+    background-color: rgb(236, 236, 236);
+}
+
+.addptp-select{
+    display: inline-block;
+    width: calc(53% - 10px);
+    text-align: left;
+    margin: 5px;
+    font-size: 1.2rem;
+}
+
+.errs{
+    display: none;
+}
+
+.addptp-error{
+    display: inline-block;
+    width:50%;
+    color:red;
+    padding: 5px;
+    margin: 0 5px;
+    font-size: 1rem;
+}
+
+.lb-buttons{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:600;
+    font-size: 1.2rem;
+    padding: 5px 10px;
+    min-width:15%;
+    margin: 30px 20px;
+    border: 0;
+    border-radius: 5px;
+}
+
+.add{
+    background-color: rgb(55, 146, 226); 
+}
+
+.add:hover,
+.add:focus{
+    background-color: rgb(119, 192, 255); 
+}
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.add-success{
+    font-size: 1.4rem;
+    text-align:justify;
+    padding: 10px;
+}
+
+.ok-button{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:600;
+    font-size: 1.2rem;
+    padding: 5px 10px;
+    width:30%;
+    margin: 10px 20px;
+    border: 0;
+    border-radius: 5px;
+}

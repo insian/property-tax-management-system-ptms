@@ -1,0 +1,41 @@
+#contact-main{
+    min-height: 68vh;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.contact-first{
+    width:50%;
+    margin: 0 auto;
+    padding: 40px 0;
+    position: relative;
+}
+
+.contact-heading{
+    background-color: aqua;
+    margin: 0 auto 25px;
+    padding: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;   
+}
+
+.table-contact{
+    margin: 0 auto;
+    width:90%;
+    font-size: 1.4rem;
+    text-align: left;
+}
+
+.first-col{
+    width:25%;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.second-col{
+    padding: 15px;
+    width:auto;
+}
