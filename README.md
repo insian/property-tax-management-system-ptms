@@ -2,9 +2,13 @@
 # Module and Softwares used in this project
 
 1. React Js
+
     1.1 React Select
+
     1.2 React Router Dom
+
     1.3 React Popup
+
     1.4 React Dropdown
 
 2. Firebase for backend Connection
@@ -16,12 +20,20 @@
 2. Create a new react project by running the command npx create-react-app ptms
 
 3. After this run the following to install the required packages needed
+
     3.1 npm install react-select --save
+
     3.2 npm install react-router-dom --save
+
     3.3 npm install reactjs-popup --save
+
     3.4 npm install react-dropdown --save
+
     3.5 npm install firebase --save
+
     3.6 npm install -g firebase-tools
+
+
 
 4. Replace the files present in the ptms folder with the file downloaded from Zip in Github(dont replace node modules folder)
 
