@@ -18,7 +18,6 @@ function Admin(){
     const navigateToUpdateTax = () => {
         navigate("/updateTax");
     }
-
     function onCheckTaxStatus(){
         alert("Sorry this functionality is still under Development");
     }

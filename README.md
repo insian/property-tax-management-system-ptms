@@ -1,73 +1,50 @@
 
-# Getting Started with Create React App
+# Module and Softwares used in this project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1. React Js
+    1.1 React Select
+    1.2 React Router Dom
+    1.3 React Popup
+    1.4 React Dropdown
 
-## Available Scripts
+2. Firebase for backend Connection
 
-In the project directory, you can run:
+# To Run the app On your local Computer follow the following steps:
 
-### `npm start`
+1. Install node js 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. Create a new react project by running the command npx create-react-app ptms
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+3. After this run the following to install the required packages needed
+    3.1 npm install react-select --save
+    3.2 npm install react-router-dom --save
+    3.3 npm install reactjs-popup --save
+    3.4 npm install react-dropdown --save
+    3.5 npm install firebase --save
+    3.6 npm install -g firebase-tools
 
-### `npm test`
+4. Replace the files present in the ptms folder with the file downloaded from Zip in Github(dont replace node modules folder)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+5. Create a firebase project and create a realtime database
 
-### `npm run build`
+6. replace the npm const firebaseConfig present in the src/pages/database.js with your api key
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+7. run npm start in cmd
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# To run web app do the following things:
 
-### `npm run eject`
+1. Open the site https://ptms-fafe5.web.app/
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. Login in the admin by the credentials
+    State: Test State
+    Username: Admin
+    Password: Test@1234
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Add local bodies and change the tax rates in order to able to login through RLB/ULB login
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4. Next add public details for the particular local body to generate tax bill for it
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+5. Next login through public login to pay the tax
 
 

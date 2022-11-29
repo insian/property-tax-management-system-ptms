@@ -17,6 +17,7 @@ function Login(){
     localStorage.setItem("adminLoggedIn", "false");
     localStorage.setItem("lbLoggedIn", "false");
     localStorage.setItem("publicLoggedIn","false");
+    localStorage.setItem("Username","");
 
     /*Pop up functions*/
     const [isAdminOpen, setIsAdminOpen] = useState(false);

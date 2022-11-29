@@ -9,7 +9,6 @@ function GenerateBills(){
     const ls_username = localStorage.getItem("Username");
     const currentState = ls_username.substring(0,2);
     const currentLb = ls_username.substring(2);
-
     var rate_array = useRef({
         agri:0,
         resi_o:0,
@@ -126,7 +125,7 @@ function GenerateBills(){
 
     return (
         <div id="lb-main">
-            <p className="gb-heading">Genrate Tax Bills</p>
+            <p className="gb-heading">Generate Tax Bills</p>
             <div className="gb-first-div">
                 <form onSubmit={generateBillTable}>
                     <div>
